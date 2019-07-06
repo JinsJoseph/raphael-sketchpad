@@ -5,12 +5,12 @@
   <p>
     Draw a sketch below.
   </p>
-  <div style="height:300px;" class="widget">
+  <div style="height:260px;" class="widget">
     <div id="sketchpad_editor"></div>
   </div>
 </div>
 
-<!-- <div class="span-8">
+ <div class="span-8">
   <h3>Result</h3>
   <p>
     The sketch is stored as JSON in an input field.
@@ -29,15 +29,15 @@
   <div style="height:260px;" class="widget">
     <div id="sketchpad_viewer"></div>
   </div>
-</div> -->
+</div>
 
 <script type="text/javascript">
   $(document).ready(function() {
     var strokes = [];
 
     var sketchpad_editor = Raphael.sketchpad("sketchpad_editor", {
-      width: 3000,
-      height: 400,
+      width: 260,
+      height: 260,
       editing: true,  // true is default
       strokes: strokes
     });
